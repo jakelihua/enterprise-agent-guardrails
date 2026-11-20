@@ -3,10 +3,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python: 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
-[![Author: Shunchi Wang](https://img.shields.io/badge/Author-Shunchi_Wang_(Jake_Lihua)-orange.svg)](https://github.com/jakelihua)
+[![Author: knightwwang](https://img.shields.io/badge/Author-knightwwang-orange.svg)](https://github.com/jakelihua)
 [![WeChat: 极客李华](https://img.shields.io/badge/WeChat-极客李华-07C160.svg)](https://mp.weixin.qq.com)
 
-> **开源声明**：本工程套件由资深 AI 架构师**王顺驰（极客李华）**主理维护，**100% 基于公开顶会学术论文（Stanford / Anthropic / Princeton / NeurIPS / ICLR）与 Python 3.11+ 标准生态从零实现**。采用 MIT 开源协议，不包含任何特定商业机密与专有业务数据，可供广大开发者、架构师复用于生产环境自检。
+> **开源声明**：本工程套件由资深 AI 架构师 **knightwwang** 主理维护，**100% 基于公开顶会学术论文（Stanford / Anthropic / Princeton / NeurIPS / ICLR）与 Python 3.11+ 标准生态从零实现**。采用 MIT 开源协议，不包含任何特定商业机密与专有业务数据，可供广大开发者、架构师复用于生产环境自检。
 
 ---
 
@@ -33,7 +33,7 @@ python3 open_agent_guardrails.py
 
 自检输出：
 ```text
-=== [极客李华开源套件] 开始运行生产护栏自检 ===
+=== [knightwwang 开源套件] 开始运行生产护栏自检 ===
 [PASS] 组件 1 (多模态碎图清洗): 输入 4 张图，精准拦截 3 张装饰碎图，省下 75% VLM 算力。
 [PASS] 组件 2 (异步有界并发池): 10 个并发请求平稳完成，峰值并发严格锁死在 3，零协程泄漏。
 [PASS] 组件 3 (零 LLM AST 算术沙箱): 表达式精确求值 = 284.45，彻底免疫浮点数误差与代码注入。
@@ -44,7 +44,7 @@ python3 open_agent_guardrails.py
 
 ## 🤝 关于作者与技术支持
 
-- **作者**：王顺驰（Shunchi Wang / Jake Lihua），资深 AI 架构师 ｜ 前鹅厂研发 ｜ 大模型后训练金牌考官
+- **作者**：knightwwang，资深 AI 架构师 ｜ 前鹅厂研发 ｜ 大模型后训练金牌考官
 - **微信公众号**：**【极客李华】**（专注企业级大模型与生产 Agent 深度排雷、架构实操复盘）
 - **CSDN 博客**：10.6 万+ 粉丝博客专家，220 万+ 开发者阅读
 - **开源协议**：MIT License —— 欢迎 Star、Fork 并用于企业生产环境！
