@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 open_agent_guardrails.py
-【极客李华 · 开源工程组件库】企业级 AI Agent 生产级三大核心护栏参考实现 (MIT License)
+【knightwwang · 开源工程组件库】企业级 AI Agent 生产级三大核心护栏参考实现 (MIT License)
 
 100% 纯净 Python 3.11+ 标准库实现，零第三方商业依赖、零业务敏感信息。
 包含三大高频生产排雷组件：
@@ -190,7 +190,7 @@ class SafeDecimalASTEvaluator:
 # 内置自动化自检演示（直接运行验证）
 # ============================================================================
 async def _run_self_tests() -> None:
-    print("=== [极客李华开源套件] 开始运行生产护栏自检 ===")
+    print("=== [knightwwang 开源套件] 开始运行生产护栏自检 ===")
 
     # 1. 验证多模态 5-Line 碎图过滤
     img_filter = MultimodalImageFilter()
