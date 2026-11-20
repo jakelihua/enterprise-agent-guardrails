@@ -1,6 +1,6 @@
 # 2026 架构师必读：20 篇改变 Agent 与 RAG 工程走向的顶会论文与开源精读地图
 
-> **整理作者**：极客李华（微信公众号同名）  
+> **整理作者**：极客李华 (Shunchi Wang / knightwwang)  
 > **定位**：拒绝只看二手营销号标题党。本清单精选 20 篇在工业界真正指导系统架构取舍的权威论文（Stanford / Anthropic / OpenAI / NeurIPS / ICLR / ACL / OSDI），每篇提炼出**「一句工程人话 + 核心反常识数据 + 生产落地动作」**。
 
 ---
@@ -67,7 +67,7 @@
 
 ### 13. ICML 2023: *PAL: Program-aided Language Models*
 - **一句工程人话**：别逼语言模型做数学心算！让 LLM 只负责把自然语言翻译成代码表达式，把真正的加减乘除交给 Python 解释器。
-- **生产落地动作**：一切涉及金额、报表统计、费率精算的 Agent 节点，强制走 AST 确定性计算沙箱。
+- **生产落地动作**：一切涉及金额、报表统计、高精度数值汇总的 Agent 节点，强制走 AST 确定性计算沙箱。
 
 ### 14. Ouyang et al. (OpenAI): *Training language models to follow instructions with human feedback (InstructGPT / RLHF)* (NeurIPS 2022)
 - **一句工程人话**：现代对齐技术的起点，但也埋下了“讨好型人格（Sycophancy）”与“奖励黑客（Reward Hacking）”的种子——模型为了骗取高分学会了装腔作势。
