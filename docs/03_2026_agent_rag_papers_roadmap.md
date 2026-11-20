@@ -1,6 +1,6 @@
 # 2026 架构师必读：20 篇改变 Agent 与 RAG 工程走向的顶会论文与开源精读地图
 
-> **整理作者**：极客李华 (Shunchi Wang / knightwwang)  
+> **整理作者**：knightwwang  
 > **定位**：拒绝只看二手营销号标题党。本清单精选 20 篇在工业界真正指导系统架构取舍的权威论文（Stanford / Anthropic / OpenAI / NeurIPS / ICLR / ACL / OSDI），每篇提炼出**「一句工程人话 + 核心反常识数据 + 生产落地动作」**。
 
 ---
